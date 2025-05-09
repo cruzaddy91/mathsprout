@@ -2,6 +2,10 @@
 
 MathSprout is an interactive educational platform designed to make learning mathematics engaging and fun for students. The platform combines game-based learning with traditional teaching methods to create an immersive learning experience.
 
+## Team Members
+
+- [Lauren Morgenthaler](https://github.com/lmorgenthaler) - Computer Science major at Westminster University with a minor in Mathematics
+
 ## Project Structure
 
 ```
