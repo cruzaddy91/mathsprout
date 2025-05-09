@@ -5,8 +5,13 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:prod": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "test:ci": "ng test --watch=false --browsers=ChromeHeadless",
+    "lint": "ng lint",
+    "format": "prettier --write \"src/**/*.{ts,html,scss}\"",
+    "analyze": "ng build --stats-json && webpack-bundle-analyzer dist/stats.json"
   },
   "private": true,
   "dependencies": {
